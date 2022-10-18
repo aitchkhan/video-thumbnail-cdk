@@ -1,14 +1,18 @@
-# Welcome to your CDK TypeScript project
+Video thumbnail
+Python has a very good library for ffmpeg
 
-This is a blank project for CDK development with TypeScript.
+https://github.com/kkroening/ffmpeg-python
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+**Competition:**
 
-## Useful commands
+https://dev.to/ryands17/generating-video-thumbnails-with-s3-and-fargate-using-the-cdk-35il
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+I am currently writing article about AWS CDK with Typescript where user can upload video to S3 using AWS S3 presigned url.
+AWS API Gateway, Lambda, S3. Get a presigned url.
+
+
+
+Write code for getting pre-signed url using API Gateway, Lambda, S3 with AWS-CDK.
+
+TODO: 
+Lambda integration with API Gateway --> in progress, will continue from here tomorrow

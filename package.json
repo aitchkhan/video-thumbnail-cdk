@@ -1,6 +1,6 @@
 {
   "name": "video-thumbnail-cdk",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "bin": {
     "video-thumbnail-cdk": "bin/video-thumbnail-cdk.js"
   },
@@ -8,19 +8,25 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "deploy": "npm run build && cdk deploy --app \"npx ts-node -r tsconfig-paths/register bin/video-thumbnail-cdk.ts\" --all  --region us-east-1 --require-approval never",
+    "destroy": "npm run build && cdk destroy --app \"npx ts-node -r tsconfig-paths/register bin/video-thumbnail-cdk.ts\" --all  --region us-east-1 --require-approval never"
   },
   "devDependencies": {
     "@types/jest": "^27.5.2",
     "@types/node": "10.17.27",
     "@types/prettier": "2.6.0",
+    "aws-cdk": "2.45.0",
+    "esbuild": "^0.15.10",
     "jest": "^27.5.1",
     "ts-jest": "^27.1.4",
-    "aws-cdk": "2.45.0",
     "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigatewayv2-alpha": "^2.45.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "^2.45.0-alpha.0",
     "aws-cdk-lib": "2.45.0",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.21"

@@ -1,13 +1,19 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
+    "target": "ES2019",
+    "baseUrl": ".",
     "module": "commonjs",
     "lib": [
-      "es2018"
+      "es2019"
     ],
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
     "declaration": true,
     "strict": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "strictNullChecks": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
@@ -21,10 +27,18 @@
     "strictPropertyInitialization": false,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "paths": {
+      "cdk": ["cdk"],
+      "lib": ["lib"]
+    }
   },
   "exclude": [
     "node_modules",
-    "cdk.out"
+    "cdk.out",
+    "dist", 
+    "build"
   ]
 }
