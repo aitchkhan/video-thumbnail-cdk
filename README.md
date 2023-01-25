@@ -16,3 +16,5 @@ Write code for getting pre-signed url using API Gateway, Lambda, S3 with AWS-CDK
 
 TODO: 
 Lambda integration with API Gateway --> in progress, will continue from here tomorrow
+
+Fix esbuild issue
