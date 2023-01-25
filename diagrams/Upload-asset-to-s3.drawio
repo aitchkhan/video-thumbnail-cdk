@@ -1,1 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T14:29:30.920Z" agent="5.0 (Macintosh)" version="20.8.11" etag="pgFg2BINXbitHxjXxaZi" type="github"><diagram name="Page-1" id="tf4tIUg3pcvOtZYC8EFq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-25T14:31:58.619Z" agent="5.0 (Macintosh)" etag="Exb7I5WUS5AhV_XSGHvX" version="20.8.11" type="github">
+  <diagram name="Page-1" id="tf4tIUg3pcvOtZYC8EFq">
+    <mxGraphModel dx="1434" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pdSRjDpuq1H1lxORk6nE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pdSRjDpuq1H1lxORk6nE-1" target="pdSRjDpuq1H1lxORk6nE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdSRjDpuq1H1lxORk6nE-1" value="Amazon EC2" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="320" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pdSRjDpuq1H1lxORk6nE-2" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="140" y="570" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pdSRjDpuq1H1lxORk6nE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pdSRjDpuq1H1lxORk6nE-3" target="pdSRjDpuq1H1lxORk6nE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdSRjDpuq1H1lxORk6nE-3" value="Desktop and Mobile" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;spacingLeft=0;fontColor=#999999;fontSize=12;whiteSpace=wrap;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pdSRjDpuq1H1lxORk6nE-4" value="" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.desktop_and_mobile;part=1;" vertex="1" parent="pdSRjDpuq1H1lxORk6nE-3">
+          <mxGeometry x="0.5" width="50" height="33" relative="1" as="geometry">
+            <mxPoint x="-25" y="18.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdSRjDpuq1H1lxORk6nE-8" value="&lt;div&gt;user uploads asset to &lt;br&gt;&lt;/div&gt;&lt;div&gt;app server first&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pdSRjDpuq1H1lxORk6nE-9" value="image is uploaded to AWS S3 " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="490" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
