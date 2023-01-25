@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T13:01:08.016Z" agent="5.0 (Macintosh)" etag="P0p3tFcvagBAXJ7G-yXX" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-25T13:05:31.283Z" agent="5.0 (Macintosh)" etag="AIcryls1objfx0CWdhmf" version="20.8.11" type="github">
   <diagram name="Page-1" id="FNWO7BujRrmQZv5T_AbI">
     <mxGraphModel dx="1434" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,6 +35,15 @@
             <mxPoint y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="w5kYL4AO4Lb6vANthsFw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="w5kYL4AO4Lb6vANthsFw-5" target="w5kYL4AO4Lb6vANthsFw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="705" y="780" />
+              <mxPoint x="185" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="w5kYL4AO4Lb6vANthsFw-5" value="Desktop and Mobile" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;spacingLeft=0;fontColor=#999999;fontSize=12;whiteSpace=wrap;spacingBottom=2;" vertex="1" parent="1">
           <mxGeometry x="670" y="450" width="70" height="100" as="geometry" />
         </mxCell>
@@ -45,6 +54,9 @@
         </mxCell>
         <mxCell id="w5kYL4AO4Lb6vANthsFw-12" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;with contentType&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="530" y="320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w5kYL4AO4Lb6vANthsFw-14" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;user will upload media to S3 using the presigned URL&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="270" y="780" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
